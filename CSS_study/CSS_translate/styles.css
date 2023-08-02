@@ -1,0 +1,19 @@
+.element {
+    border : 2px solid lightblue;
+    width : 200px;
+    height : 200px;
+    margin : 20px;
+    padding : 20px;
+    background-color : lightgreen;
+    transition-duration: 2s;
+    transform : scale(1.0)
+    animation : skew 100s infinite;
+    transform : skew(20deg);
+}
+
+.element:hover {
+    transform : scale(1.5);
+    background-color : lightblue;
+    border : 2px solid lightgreen;
+    transition-duration: 2s;
+}

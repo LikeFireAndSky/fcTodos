@@ -1,0 +1,31 @@
+p {
+    color : green;
+    line-height: 10;
+    text-decoration : underline;
+    text-decoration-color : red;
+    text-decoration-style : wavy;
+    text-decoration-line : overline;
+    text-align : left;
+    inline-size: 100px;
+}
+
+div {
+    width: 500px;
+}
+
+.image {
+    display: inline-block;
+    width: 1000px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+    object-fit: contain;
+    object-position: left
+}
+
+.imgae:hover {
+    object-position: right;
+    transform: scale(1.5);
+}

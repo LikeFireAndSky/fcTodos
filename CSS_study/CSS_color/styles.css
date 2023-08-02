@@ -1,0 +1,32 @@
+.ptag1 {
+    color : red;
+}
+
+.ptag2 {
+    color : #009966
+}
+
+.ptag3 {
+    color : rgb(0, 0, 255, 0.5);
+}
+
+.ptag4 {
+    color : hsl(300, 100%, 50%);
+}
+
+div {
+    font-size: 16px;
+}
+
+dd {
+    font-size: 10em;
+    white-space: nowrap;
+}
+
+.dd_rem {
+    font-size : 0.1rem;
+}
+
+body{
+    font-size: 100px;
+}

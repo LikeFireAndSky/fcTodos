@@ -1,0 +1,15 @@
+p {
+    color: blue;
+}
+
+button {
+    background-color: darkgreen;
+    color: white;
+    height: max-content;
+    width: max-content;
+    border-radius: 5px;
+    cursor: pointer;
+    border-color: darkgoldenrod;
+    border-style: solid;
+    border-width: 2px;
+}

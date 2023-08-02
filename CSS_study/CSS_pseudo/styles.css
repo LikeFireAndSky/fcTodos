@@ -1,0 +1,33 @@
+.parent p:first-child {
+  color: red;
+}
+
+.parent p:first-of-type {
+    font-size : 210px;
+    color : lightseagreen;
+}
+
+li {
+    float: left;
+    margin-right: 30px;
+    font-size: 32px;
+    list-style: none;
+}
+
+li::after {
+    content: " | ";
+    padding-left: 30px;
+}
+
+li::before {
+    content: " | ";
+    padding-right: 30px;
+}
+
+li:last-of-type::after {
+    content: "";
+}
+
+li:first-of-type::before {
+    content: "시작 : ";
+}
